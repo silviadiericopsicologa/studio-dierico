@@ -1,0 +1,16 @@
+STUDIO DIERICO - VERSIONE AGGIORNATA
+
+Contenuto:
+- index.html
+- style.css
+- script.js
+- images/logo.png
+- images/silvia-dierico.png
+- images/silvia-dierico1.png
+
+Per aggiornare GitHub:
+1. Apri il repository studio-dierico.
+2. Sostituisci index.html, style.css e script.js.
+3. Apri la cartella images e sostituisci/carica i tre file immagine.
+4. Esegui Commit changes.
+5. Attendi la pubblicazione di GitHub Pages e aggiorna con Ctrl+F5.
