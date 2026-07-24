@@ -1,16 +1,12 @@
-STUDIO DIERICO - VERSIONE AGGIORNATA
-
-Contenuto:
-- index.html
-- style.css
-- script.js
-- images/logo.png
-- images/silvia-dierico.png
-- images/silvia-dierico1.png
+Aggiornamento PdT:
+- logo aggiornato con la dicitura Psicoterapeuta;
+- nuova pagina pdt.html;
+- link Metodo PdT aggiunto alla navigazione;
+- sezione PdT aggiunta nella home;
+- collegamento al sito ufficiale PdT Storytelling Cards.
 
 Per aggiornare GitHub:
-1. Apri il repository studio-dierico.
-2. Sostituisci index.html, style.css e script.js.
-3. Apri la cartella images e sostituisci/carica i tre file immagine.
-4. Esegui Commit changes.
-5. Attendi la pubblicazione di GitHub Pages e aggiorna con Ctrl+F5.
+1. Sostituire index.html, style.css, script.js e la cartella images.
+2. Caricare il nuovo file pdt.html nella cartella principale.
+3. Eseguire Commit changes.
+4. Aggiornare il sito con Ctrl+F5.
