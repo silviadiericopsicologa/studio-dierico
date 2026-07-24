@@ -1623,3 +1623,99 @@ p {
     min-height: auto;
   }
 }
+
+
+/* =========================================
+   PDT — LOGO UFFICIALE
+========================================= */
+
+.pdt-preview-logo,
+.pdt-page-logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid var(--border-gold);
+  border-radius: var(--radius-large);
+  background: #1f4d80;
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  transition: transform 0.24s ease, box-shadow 0.24s ease;
+}
+
+.pdt-preview-logo {
+  min-height: 330px;
+  padding: 24px;
+}
+
+.pdt-page-logo {
+  min-height: 390px;
+  padding: 26px;
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.pdt-preview-logo:hover,
+.pdt-page-logo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 28px 65px rgba(5, 42, 52, 0.2);
+}
+
+.pdt-preview-logo img,
+.pdt-page-logo img {
+  width: 100%;
+  height: auto;
+  max-height: 310px;
+  object-fit: contain;
+  border-radius: 14px;
+}
+
+.pdt-page-logo img {
+  max-height: 340px;
+}
+
+.pdt-external-card {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.35fr) minmax(0, 1fr) auto;
+}
+
+.pdt-external-logo {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-small);
+}
+
+/* The official logo replaces the previous oversized decorative lettering. */
+.pdt-page-symbol {
+  display: none;
+}
+
+@media (max-width: 920px) {
+  .pdt-preview-logo,
+  .pdt-page-logo {
+    width: min(100%, 620px);
+    min-height: auto;
+  }
+
+  .pdt-external-card {
+    grid-template-columns: 1fr;
+  }
+
+  .pdt-external-logo {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 620px) {
+  .pdt-preview-logo,
+  .pdt-page-logo {
+    padding: 14px;
+    border-radius: var(--radius-medium);
+  }
+
+  .pdt-preview-logo img,
+  .pdt-page-logo img {
+    max-height: none;
+  }
+}

@@ -10,3 +10,6 @@ Per aggiornare GitHub:
 2. Caricare il nuovo file pdt.html nella cartella principale.
 3. Eseguire Commit changes.
 4. Aggiornare il sito con Ctrl+F5.
+
+- aggiunto il logo ufficiale PdT in images/pdt-logo.jpeg;
+- logo PdT inserito nella home, nella pagina pdt.html e nel collegamento al sito ufficiale.
