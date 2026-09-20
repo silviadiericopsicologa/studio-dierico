@@ -1964,3 +1964,84 @@ p {
     padding: 58px 0 72px;
   }
 }
+
+/* =========================================
+   AGGIORNAMENTO LOGHI — 20/09/2026
+   PdT: logo ufficiale R senza doppio fondo blu
+   Footer: logo Studio Dierico ben visibile
+========================================= */
+
+.pdt-preview-logo,
+.pdt-page-logo {
+  min-height: 0;
+  padding: 0;
+  background: transparent;
+  border: 1px solid var(--border-gold);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.pdt-preview-logo img,
+.pdt-page-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  border-radius: inherit;
+  object-fit: contain;
+}
+
+.pdt-external-logo {
+  display: block;
+  height: auto;
+  border-radius: 14px;
+  box-shadow: var(--shadow-small);
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 220px;
+  min-width: 220px;
+  text-decoration: none;
+}
+
+.footer-brand img {
+  display: block;
+  width: 205px;
+  height: 205px;
+  object-fit: contain;
+  object-position: center;
+  filter: none;
+  opacity: 1;
+  border: 1px solid rgba(210, 159, 59, 0.55);
+  border-radius: 18px;
+  background: #f8f3eb;
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.14);
+}
+
+@media (max-width: 920px) {
+  .pdt-preview-logo,
+  .pdt-page-logo {
+    width: min(100%, 720px);
+  }
+}
+
+@media (max-width: 620px) {
+  .pdt-preview-logo,
+  .pdt-page-logo {
+    padding: 0;
+    border-radius: 20px;
+  }
+
+  .footer-brand {
+    width: 180px;
+    min-width: 180px;
+  }
+
+  .footer-brand img {
+    width: 170px;
+    height: 170px;
+  }
+}
