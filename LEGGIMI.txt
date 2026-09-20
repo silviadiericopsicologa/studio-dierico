@@ -14,7 +14,7 @@ Principali modifiche:
 - descrizione dei professionisti PdT allineata al sito ufficiale.
 
 URL attuale Studio Dierico:
-https://silviadiericopsicologa.github.io/studio-dierico/
+https://silviadierico.com/
 
 Per aggiornare GitHub:
 1. Scompattare lo ZIP.
@@ -24,9 +24,9 @@ Per aggiornare GitHub:
 5. Attendere GitHub Pages e fare Ctrl+F5.
 
 Dopo la pubblicazione:
-- verificare https://silviadiericopsicologa.github.io/studio-dierico/
-- verificare https://silviadiericopsicologa.github.io/studio-dierico/favicon.ico
-- inviare https://silviadiericopsicologa.github.io/studio-dierico/sitemap.xml a Google Search Console se la proprietà è configurata.
+- verificare https://silviadierico.com/
+- verificare https://silviadierico.com/favicon.ico
+- inviare https://silviadierico.com/sitemap.xml a Google Search Console se la proprietà è configurata.
 
 Nota privacy:
 La policy riflette il sito statico attuale senza analytics, newsletter o moduli web. Se in futuro vengono aggiunti form, analytics, Pixel, prenotazioni online o altri servizi esterni, la policy e l'eventuale gestione del consenso dovranno essere aggiornate.

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://silviadiericopsicologa.github.io/studio-dierico/sitemap.xml
+Sitemap: https://silviadierico.com/sitemap.xml
