@@ -1,15 +1,32 @@
-Aggiornamento PdT:
-- logo aggiornato con la dicitura Psicoterapeuta;
-- nuova pagina pdt.html;
-- link Metodo PdT aggiunto alla navigazione;
-- sezione PdT aggiunta nella home;
-- collegamento al sito ufficiale PdT Storytelling Cards.
+STUDIO DIERICO — AGGIORNAMENTO 20/09/2026
+
+Principali modifiche:
+- nuova identità header con monogramma Studio Dierico;
+- favicon Studio Dierico per browser e risultati Google;
+- SEO on-page: title, description, canonical, Open Graph e Twitter Card;
+- sitemap.xml e robots.txt;
+- pagina 404 personalizzata e noindex;
+- Privacy Policy dedicata;
+- banner privacy leggero, senza consenso fittizio: il sito non usa analytics o cookie di profilazione;
+- site.webmanifest e icone 16/32/48/180/192/512 px;
+- logo PdT aggiornato con ®;
+- tutti i link PdT aggiornati a https://pdtstorytellingcards.com/;
+- descrizione dei professionisti PdT allineata al sito ufficiale.
+
+URL attuale Studio Dierico:
+https://silviadiericopsicologa.github.io/studio-dierico/
 
 Per aggiornare GitHub:
-1. Sostituire index.html, style.css, script.js e la cartella images.
-2. Caricare il nuovo file pdt.html nella cartella principale.
-3. Eseguire Commit changes.
-4. Aggiornare il sito con Ctrl+F5.
+1. Scompattare lo ZIP.
+2. Copiare TUTTO il contenuto della cartella nel repository studio-dierico.
+3. Sostituire i file esistenti.
+4. Commit changes / push.
+5. Attendere GitHub Pages e fare Ctrl+F5.
 
-- aggiunto il logo ufficiale PdT in images/pdt-logo.jpeg;
-- logo PdT inserito nella home, nella pagina pdt.html e nel collegamento al sito ufficiale.
+Dopo la pubblicazione:
+- verificare https://silviadiericopsicologa.github.io/studio-dierico/
+- verificare https://silviadiericopsicologa.github.io/studio-dierico/favicon.ico
+- inviare https://silviadiericopsicologa.github.io/studio-dierico/sitemap.xml a Google Search Console se la proprietà è configurata.
+
+Nota privacy:
+La policy riflette il sito statico attuale senza analytics, newsletter o moduli web. Se in futuro vengono aggiunti form, analytics, Pixel, prenotazioni online o altri servizi esterni, la policy e l'eventuale gestione del consenso dovranno essere aggiornate.

@@ -104,3 +104,34 @@ imageFallbacks.forEach(({ image, wrapper }) => {
     });
   }
 });
+
+
+/* AVVISO PRIVACY — SOLO MEMORIA LOCALE TECNICA */
+
+const privacyBanner = document.getElementById("privacy-banner");
+const privacyDismiss = document.getElementById("privacy-dismiss");
+const privacyStorageKey = "studioDiericoPrivacyNoticeV1";
+
+if (privacyBanner && privacyDismiss) {
+  let alreadyDismissed = false;
+
+  try {
+    alreadyDismissed = window.localStorage.getItem(privacyStorageKey) === "dismissed";
+  } catch (_) {
+    alreadyDismissed = false;
+  }
+
+  if (!alreadyDismissed) {
+    privacyBanner.hidden = false;
+  }
+
+  privacyDismiss.addEventListener("click", () => {
+    privacyBanner.hidden = true;
+
+    try {
+      window.localStorage.setItem(privacyStorageKey, "dismissed");
+    } catch (_) {
+      // Se la memoria locale non è disponibile, il banner viene semplicemente chiuso.
+    }
+  });
+}
