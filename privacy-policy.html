@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co; connect-src 'none'; frame-src 'none'; media-src 'self'; manifest-src 'self'; upgrade-insecure-requests;" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
   <meta name="theme-color" content="#0d5364" />
@@ -37,8 +37,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
   <link rel="manifest" href="site.webmanifest" />
 
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=2" />
+  <script src="script.js?v=2" defer></script>
 </head>
 <body class="legal-page">
   <header class="site-header">
@@ -65,7 +65,7 @@
     <div class="container legal-container">
       <p class="eyebrow">Informativa</p>
       <h1>Privacy Policy</h1>
-      <p class="legal-update">Ultimo aggiornamento: 20 settembre 2026</p>
+      <p class="legal-update">Ultimo aggiornamento: 22 settembre 2026</p>
 
       <section class="legal-section">
         <h2>1. Titolare del trattamento</h2>
@@ -75,23 +75,24 @@
 
       <section class="legal-section">
         <h2>2. Quali dati possono essere trattati</h2>
-        <p>Il sito non utilizza moduli di contatto, aree riservate, newsletter, strumenti pubblicitari o sistemi di profilazione. La navigazione può comportare il trattamento di dati tecnici necessari alla comunicazione via Internet, come indirizzo IP, tipo di browser, data e ora della richiesta e risorsa richiesta.</p>
+        <p>Il sito mette a disposizione un modulo per richiedere un primo contatto. Il modulo raccoglie solo i dati necessari a ricontattare l’utente e invita a non inserire informazioni cliniche o sanitarie sensibili. Il sito non utilizza aree riservate, newsletter, strumenti pubblicitari o sistemi di profilazione. La navigazione può comportare il trattamento di dati tecnici necessari alla comunicazione via Internet, come indirizzo IP, tipo di browser, data e ora della richiesta e risorsa richiesta.</p>
         <p>Se scegli di contattare lo Studio tramite email o telefono, saranno trattati i dati che fornisci volontariamente per rispondere alla richiesta e gestire il contatto professionale.</p>
       </section>
 
       <section class="legal-section">
         <h2>3. Finalità e basi del trattamento</h2>
-        <p>I dati tecnici sono trattati per consentire il funzionamento e la sicurezza del sito. I dati inviati volontariamente tramite email o telefono sono utilizzati per rispondere alla richiesta, concordare un eventuale primo colloquio e svolgere gli adempimenti connessi al rapporto professionale, quando applicabili.</p>
+        <p>I dati tecnici sono trattati per consentire il funzionamento e la sicurezza del sito. I dati inviati volontariamente tramite modulo, email o telefono sono utilizzati per rispondere alla richiesta, concordare un eventuale primo colloquio e svolgere gli adempimenti connessi al rapporto professionale, quando applicabili.</p>
       </section>
 
       <section class="legal-section">
         <h2>4. Cookie e tecnologie simili</h2>
-        <p>Il sito non utilizza cookie di profilazione, pubblicitari o strumenti di analisi del traffico. Può essere usata esclusivamente una memoria locale del browser per ricordare la chiusura dell’avviso privacy; questa informazione resta sul dispositivo e non viene usata per tracciare la navigazione.</p>
+        <p>Il sito non utilizza cookie di profilazione, pubblicitari o strumenti di analisi del traffico. Può essere usata una memoria locale del browser per ricordare la chiusura dell’avviso privacy. Quando viene inviato il modulo contatti, il fornitore del modulo può attivare una verifica tecnica anti-spam tramite CAPTCHA. Non viene utilizzata per finalità pubblicitarie dal sito.</p>
       </section>
 
       <section class="legal-section">
         <h2>5. Hosting e servizi esterni</h2>
         <p>Il sito è pubblicato tramite GitHub Pages. Il fornitore dell’infrastruttura può trattare dati tecnici di connessione secondo le proprie condizioni e informative.</p>
+        <p>Il modulo contatti utilizza FormSubmit come servizio tecnico di recapito e protezione anti-spam. I dati inseriti nel modulo vengono trasmessi al servizio esclusivamente per inoltrare la richiesta alla casella email dello Studio. Il servizio può richiedere una verifica anti-spam tramite CAPTCHA e il modulo include inoltre un campo honeypot.</p>
         <p>I collegamenti a servizi esterni, come Google Maps e il sito PdT Storytelling Cards, vengono attivati solo quando scegli di aprirli. Da quel momento si applicano le informative dei rispettivi servizi.</p>
       </section>
 
@@ -107,7 +108,7 @@
 
       <section class="legal-section legal-note">
         <h2>Contatti sanitari</h2>
-        <p>Per un primo contatto è preferibile evitare di inviare via email informazioni cliniche non necessarie. Il sito e la casella email non costituiscono un servizio di emergenza.</p>
+        <p>Per un primo contatto è preferibile evitare di inviare tramite modulo o email informazioni cliniche o sanitarie non necessarie. Il sito, il modulo e la casella email non costituiscono un servizio di emergenza.</p>
       </section>
     </div>
   </main>

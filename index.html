@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https://formsubmit.co; connect-src 'none'; frame-src 'none'; media-src 'self'; manifest-src 'self'; upgrade-insecure-requests;" />
   <meta name="referrer" content="strict-origin-when-cross-origin" />
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
   <meta name="theme-color" content="#0d5364" />
@@ -37,8 +37,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
   <link rel="manifest" href="site.webmanifest" />
 
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=2" />
+  <script src="script.js?v=2" defer></script>
 </head>
 
 <body>
@@ -99,7 +99,7 @@
           <h1>Silvia Dierico</h1>
 
           <p class="hero-role">
-            Psicologa clinica e psicoterapeuta · Psicoterapia psicoanalitica
+            Psicologa clinica e psicoterapeuta psicoanalitica.
           </p>
 
           <p class="hero-description">
@@ -505,6 +505,37 @@
         </div>
       </div>
     </section>
+
+  <section class="section secure-contact-section" aria-labelledby="secure-contact-title">
+    <div class="container">
+      <div class="secure-form-shell reveal">
+        <div class="secure-form-intro">
+          <p class="eyebrow">Modulo contatti</p>
+          <h2 id="secure-contact-title">Richiedi di essere ricontattato</h2>
+          <p>Per tutelare la privacy, usa questo modulo solo per un primo contatto e non inserire informazioni cliniche o sanitarie sensibili.</p>
+        </div>
+        <form class="secure-contact-form" action="https://formsubmit.co/silviadierico.psicologa@gmail.com" method="POST" accept-charset="UTF-8">
+          <input type="hidden" name="_subject" value="Nuova richiesta dal sito silviadierico.com" />
+          <input type="hidden" name="_next" value="https://silviadierico.com/grazie.html" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="true" />
+          <div class="form-honeypot" aria-hidden="true">
+            <label>Lascia vuoto questo campo <input type="text" name="_honey" tabindex="-1" autocomplete="off" /></label>
+          </div>
+          <div class="form-grid">
+            <label class="form-field"><span>Nome e cognome</span><input type="text" name="name" maxlength="100" autocomplete="name" required /></label>
+            <label class="form-field"><span>Email</span><input type="email" name="email" maxlength="254" autocomplete="email" inputmode="email" required /></label>
+            <label class="form-field"><span>Telefono (facoltativo)</span><input type="tel" name="phone" maxlength="40" autocomplete="tel" inputmode="tel" /></label>
+            <label class="form-field"><span>Preferenza di contatto</span><select name="contact_preference" required><option value="" selected disabled>Seleziona</option><option value="email">Email</option><option value="telefono">Telefono</option></select></label>
+            <label class="form-field form-field-wide"><span>Nota breve (facoltativa, senza dati clinici o sanitari)</span><textarea name="note" rows="4" maxlength="500"></textarea></label>
+          </div>
+          <label class="form-privacy"><input type="checkbox" name="privacy_acknowledged" value="yes" required /><span>Dichiaro di aver letto l’<a href="privacy-policy.html">Informativa Privacy</a>.</span></label>
+          <button class="button button-primary secure-submit" type="submit">Invia richiesta</button>
+          <p class="form-security-note">Prima dell’invio può essere richiesta una verifica anti-spam. In alternativa puoi contattare direttamente lo Studio via email o telefono.</p>
+        </form>
+      </div>
+    </div>
+  </section>
 
   </main>
 
