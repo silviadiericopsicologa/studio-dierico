@@ -8,7 +8,7 @@
   const topics = [
     {
       label: "Come funziona il primo colloquio?",
-      keys: ["primo colloquio", "primi colloqui", "primo incontro", "iniziare", "cominciare", "come funziona"],
+      keys: ["primo colloquio", "primi colloqui", "primo incontro", "iniziare", "cominciare"],
       answer: "Il percorso inizia con un breve contatto telefonico o via email per concordare un appuntamento. I primi colloqui servono a conoscere la richiesta; obiettivi, modalità e frequenza vengono poi definiti insieme.",
       link: "Scopri come lavoro",
       href: "#metodo"
