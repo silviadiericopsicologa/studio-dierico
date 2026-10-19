@@ -1,0 +1,4 @@
+Contact: mailto:silviadierico.psicologa@gmail.com
+Expires: 2027-10-19T23:59:59.000Z
+Preferred-Languages: it
+Canonical: https://silviadierico.com/.well-known/security.txt
