@@ -869,9 +869,13 @@ p {
 }
 
 .contact-logo {
-  width: min(100%, 330px);
+  display: block;
+  width: min(46vw, 230px);
+  height: auto;
+  aspect-ratio: 1 / 1;
   margin-top: 42px;
-  opacity: 0.12;
+  object-fit: contain;
+  opacity: 0.09;
   mix-blend-mode: multiply;
 }
 
@@ -1218,7 +1222,7 @@ p {
   }
 
   .contact-logo {
-    width: 245px;
+    width: min(62vw, 190px);
   }
 
   .footer-content {
